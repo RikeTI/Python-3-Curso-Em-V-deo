@@ -7,10 +7,10 @@ Style:
 7 => Negative (inverte as cores de texto e fundo
 
 Text:
-30 => Cinza  | 31 => Vermelho | 32 => Verde | 33 => Amarelo | 34 => Azul | 35 => Roxo | 36 => Ciano | 37 => Branco 
+30 => Preto {Cinza}  | 31 => Vermelho | 32 => Verde | 33 => Amarelo | 34 => Azul | 35 => Roxo | 36 => Ciano | 37 => Cinza {Branco} 
 
 Back:
-40 => Cinza | 41 => Vermelho | 42 => Verde | 43 => Amarelo | 44 => Azul | 45 => Roxo | 46 => Ciano | 47 => Branco
+40 => Preto {Cinza} | 41 => Vermelho | 42 => Verde | 43 => Amarelo | 44 => Azul | 45 => Roxo | 46 => Ciano | 47 => Cinza {Branco}
 '''
 
 

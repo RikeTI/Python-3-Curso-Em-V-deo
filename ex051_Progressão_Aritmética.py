@@ -1,22 +1,8 @@
 """
 Desenvolva um progrma que leia o 1º termo e a razão de uma PA. No final, mostre os 10 primeiros termos dessa progressão.
 """
-#a1 = int(input('Informe o 1º termo da PA: '))
-#r = int(input('Informe a razão da PA: '))
+#>> Resolução do Professor <<
 '''
-a1 + r = a2     ->   a2 + r = a3
-a2 - a1 = r
-'''
-print(a1, end=' -> ')
-an = a1
-for c in range(1, 10):
-    an = an + r #a2
-    print(an, end=' -> ')
-print('Acabou!')
-
-
-
-'''#>> Resolução do Professor <<
 primeiro = int(input('Primeiro termo: '))
 razão = int(input('Razão: '))
 décimo = primeiro + (10 - 1) * razão
@@ -24,3 +10,20 @@ for c in range(primeiro, décimo + razão, razão):
     print('{}'.format(c), end=' -> ')
 print('ACABOU')
 '''
+
+
+
+# a_n: a na posição     ;   a_1: a na posição 1     ;   r: é a razão
+# n: é um nº inteiro qualquer que representa a quantidade de termos
+# O n-ésimo termo de uma PA é:   >>> a_n = a_1 + (n - 1) * r <<<
+
+print('='*30)
+print('{:^30}'.format('>> PROGRESSÃO ARITMÉTICA <<'))
+print('='*30)
+n = int(input('Número de termos: '))
+a1 = int(input('Primeiro termo: '))
+r = int(input('Razão: '))
+a_n = a1 + (n - 1) * r
+for c in range(a1, a_n + r, r):
+    print(f'{c}', end=' -> ')
+print('FIM')
